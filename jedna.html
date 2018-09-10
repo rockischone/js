@@ -1,0 +1,9 @@
+<script>
+function showerror(e){
+console.log('error: ' + e.message);
+console.log('line: ' + e.lineno);
+console.log('URL: ' + e.filename);
+}
+addEventListener('error' + showerror);
+wrongfunction();
+</script>

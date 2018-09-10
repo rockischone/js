@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>javascript</title>
+<script> 
+function clickme(){
+var elem = document.getElementsByTagName('p')[0];
+elem addEventListener('click', showalert);
+}
+function showalert(){
+alert('you clickedme!');
+}
+addEventListener('load', clickme);
+</script>
+</head>
+<body>
+<section id="main">
+<p>click me</p>
+<p>you cant click me</p>
+</body>
+</html>
